@@ -1,0 +1,10 @@
+# Runtime has no third-party dependencies on purpose: the retrieval core is
+# pure stdlib so the eval harness and test suite run anywhere, including CI
+# with no network and no API key.
+#
+# Optional, only if you want to swap the hash embedding backend for something
+# real. The code calls the HTTP APIs directly via urllib, so these are not
+# required either -- listed for reference.
+#
+# openai>=1.30
+# numpy>=1.26

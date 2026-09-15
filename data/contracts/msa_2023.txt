@@ -1,0 +1,15 @@
+MASTER SERVICES AGREEMENT
+
+1. Term. This Agreement begins on the Effective Date and continues for twelve (12) months, renewing automatically for successive twelve (12) month periods unless either party gives written notice of non-renewal at least sixty (60) days before the end of the then-current term.
+
+2. Termination for Convenience. Either party may terminate this Agreement for any reason upon ninety (90) days' prior written notice to the other party. Termination for convenience does not relieve Customer of its obligation to pay fees for services performed prior to the effective date of termination.
+
+3. Termination for Cause. Either party may terminate immediately upon written notice if the other party materially breaches this Agreement and fails to cure such breach within thirty (30) days after receiving written notice describing the breach in reasonable detail.
+
+4. Fees and Payment. Customer shall pay all undisputed invoices within thirty (30) days of receipt. Late payments accrue interest at 1.5% per month or the maximum rate permitted by law, whichever is lower.
+
+5. Limitation of Liability. Except for breaches of confidentiality or indemnification obligations, neither party's aggregate liability under this Agreement shall exceed the total fees paid or payable by Customer in the twelve (12) months preceding the event giving rise to the claim.
+
+6. Confidentiality. Each party shall protect the other's Confidential Information using no less than a reasonable degree of care, and shall not disclose it to third parties except to employees and contractors with a need to know who are bound by written obligations at least as protective as those in this Agreement. Confidentiality obligations survive termination for a period of three (3) years.
+
+7. Governing Law. This Agreement is governed by the laws of the State of Delaware, without regard to its conflict of laws principles.

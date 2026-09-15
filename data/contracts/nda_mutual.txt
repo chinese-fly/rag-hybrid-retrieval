@@ -1,0 +1,13 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+
+1. Definition. "Confidential Information" means any non-public information disclosed by one party to the other, whether orally, in writing, or by inspection of tangible objects, that is designated as confidential or that reasonably should be understood to be confidential given the nature of the information and the circumstances of disclosure.
+
+2. Exclusions. Confidential Information does not include information that: (a) is or becomes publicly available through no fault of the Receiving Party; (b) was rightfully known to the Receiving Party before disclosure; (c) is rightfully obtained from a third party without restriction; or (d) is independently developed without use of the Disclosing Party's Confidential Information.
+
+3. Obligations. The Receiving Party shall use Confidential Information solely to evaluate a potential business relationship, shall protect it with at least the same care it uses for its own confidential information (and no less than reasonable care), and shall not reverse engineer, decompile, or disassemble any disclosed materials.
+
+4. Compelled Disclosure. If the Receiving Party is required by law or court order to disclose Confidential Information, it shall provide prompt written notice to the Disclosing Party where legally permitted, and shall disclose only the portion legally required.
+
+5. Term. This Agreement remains in effect for two (2) years from the Effective Date. Confidentiality obligations survive for five (5) years following expiration or termination.
+
+6. No License. Nothing in this Agreement grants any license, by implication or otherwise, to any intellectual property of the Disclosing Party.

@@ -1,0 +1,13 @@
+[
+  {"question": "How much written notice is required to terminate for convenience?", "expected_ref": "msa_2023#c000"},
+  {"question": "What is the cure period for a material breach?", "expected_ref": "msa_2023#c001"},
+  {"question": "How long do confidentiality obligations survive after termination?", "expected_ref": "msa_2023#c002"},
+  {"question": "What interest rate applies to late payments?", "expected_ref": "msa_2023#c001"},
+  {"question": "Within how many hours must a personal data breach be reported?", "expected_ref": "dpa_gdpr#c001"},
+  {"question": "Can the supplier appoint sub-processors without authorization?", "expected_ref": "dpa_gdpr#c000"},
+  {"question": "What happens to personal data when the agreement ends?", "expected_ref": "dpa_gdpr#c002"},
+  {"question": "Which information is excluded from the definition of confidential information?", "expected_ref": "nda_mutual#c000"},
+  {"question": "May the receiving party reverse engineer disclosed materials?", "expected_ref": "nda_mutual#c001"},
+  {"question": "Which state law governs the master agreement?", "expected_ref": "msa_2023#c002"},
+  {"question": "What is the recommended dose of amoxicillin for a dog?", "expected_ref": null, "out_of_domain": true}
+]

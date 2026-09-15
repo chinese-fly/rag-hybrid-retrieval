@@ -1,0 +1,15 @@
+DATA PROCESSING ADDENDUM
+
+1. Roles. Customer is the Controller and Supplier is the Processor with respect to Personal Data processed under the Agreement. Supplier shall process Personal Data only on documented instructions from Customer.
+
+2. Sub-processors. Supplier may engage sub-processors only with Customer's prior written authorization. Supplier shall impose data protection obligations on each sub-processor that are no less protective than those in this Addendum, and remains fully liable for the performance of each sub-processor.
+
+3. Security Measures. Supplier shall implement appropriate technical and organizational measures, including encryption of Personal Data at rest and in transit, access controls limiting access to personnel with a documented need, and regular vulnerability scanning of systems that store or process Personal Data.
+
+4. Breach Notification. Supplier shall notify Customer without undue delay and in any event within seventy-two (72) hours after becoming aware of a Personal Data Breach, providing the nature of the breach, the categories and approximate number of data subjects affected, and the measures taken or proposed to address the breach.
+
+5. Data Subject Requests. Supplier shall assist Customer in responding to requests to exercise data subject rights, including access, rectification, erasure, and portability, at no additional charge for reasonable volumes of requests.
+
+6. International Transfers. Supplier shall not transfer Personal Data outside the European Economic Area unless the transfer is covered by an adequacy decision or Standard Contractual Clauses, and shall notify Customer of the transfer mechanism used.
+
+7. Deletion. Upon termination, Supplier shall delete or return all Personal Data at Customer's choice, and shall certify deletion in writing within thirty (30) days of the request.
