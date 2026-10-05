@@ -1,4 +1,9 @@
-"""Reciprocal Rank Fusion."""
+"""Reciprocal Rank Fusion.
+
+Why RRF instead of score-level averaging: BM25 scores are unbounded, cosine
+similarities live in [-1, 1]. Averaging raw scores lets one system dominate by
+scale alone. RRF only uses ranks, which are comparable by construction.
+"""
 from .bm25 import BM25Index
 from .corpus import Chunk
 from .vector import VectorIndex
@@ -6,7 +11,7 @@ from .vector import VectorIndex
 
 class HybridRetriever:
     def __init__(self, chunks: list[Chunk], k: int = 60,
-                 weights: tuple[float, float] = (0.6, 0.4)):
+                 weights: tuple[float, float] = (0.4, 0.6)):
         self.chunks = chunks
         self.lex = BM25Index(chunks)
         self.sem = VectorIndex(chunks)

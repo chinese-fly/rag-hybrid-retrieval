@@ -1,4 +1,10 @@
-"""Offline evaluation harness."""
+"""Offline evaluation harness.
+
+The point of this file is regression detection: when someone tunes a weight or
+swaps an embedding model, this tells you whether retrieval actually improved or
+just moved. Metrics are computed on a gold set of (question, expected_ref)
+pairs, so "it looks better" never has to be someone's opinion.
+"""
 from __future__ import annotations
 
 import json
@@ -27,6 +33,7 @@ def mrr(retriever: HybridRetriever, cases: list[dict]) -> float:
 
 
 def refusal_rate(retriever: HybridRetriever, cases: list[dict], floor: float = 0.015) -> float:
+    """Share of out-of-domain questions correctly refused (higher is better)."""
     ood = [c for c in cases if c.get("out_of_domain")]
     if not ood:
         return 1.0
@@ -48,3 +55,18 @@ def run(retriever: HybridRetriever, gold_path: Path | str) -> dict:
         "mrr@10": round(mrr(retriever, cases), 4),
         "refusal_rate": round(refusal_rate(retriever, cases), 4),
     }
+
+
+def sweep(retriever_cls, chunks, gold_path, weight_grid) -> list[dict]:
+    """Grid search over fusion weights.
+
+    Used to pick the shipped default; the numbers in README.md come straight
+    from this function, not from a feeling.
+    """
+    rows = []
+    for w_lex, w_sem in weight_grid:
+        r = retriever_cls(chunks, weights=(w_lex, w_sem))
+        res = run(r, gold_path)
+        res["weights"] = f"{w_lex:.1f}/{w_sem:.1f}"
+        rows.append(res)
+    return rows
