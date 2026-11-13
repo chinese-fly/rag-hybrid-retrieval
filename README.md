@@ -1,5 +1,7 @@
 # rag-hybrid-retrieval
 
+English | [简体中文](README.zh-CN.md)
+
 Citation-grounded document Q&A over contract corpora. Hybrid BM25 + vector retrieval, clause-level chunking, refusal-by-default, and an offline eval harness that produces the numbers in this README.
 
 Zero runtime dependencies. Python 3.10+.
