@@ -100,7 +100,7 @@ The contracts in `data/contracts` are synthetic — written for this repo so the
 python cli.py index
 python cli.py ask "What interest rate applies to late payments?" -k 3
 python cli.py eval
-python -m unittest discover -s tests
+python -m unittest      # 8 tests, ~0.05s
 
 # with a real embedding model
 export OPENAI_API_KEY=sk-...
